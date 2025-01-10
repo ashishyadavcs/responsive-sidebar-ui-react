@@ -102,13 +102,14 @@ nav a:hover {
   }
 
   .sidebar {
+    padding-top:80px;
     transition: all 0.3s;
     position: fixed;
     top: 0;
     z-index: 2;
     height: min(100vh,100%);
     left: -120%;
-    width: 50%;
+    width: 60%;
     border-right: none;
     border-bottom: 1px solid #ddd;
     background: #fff;
