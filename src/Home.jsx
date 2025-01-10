@@ -1,6 +1,11 @@
 import React from "react";
 import "../src/App.css";
-
+import HomeIcon from '@mui/icons-material/Home';
+import ExploreIcon from '@mui/icons-material/Explore';
+import NotificationsIcon from '@mui/icons-material/Notifications';
+import MessageIcon from '@mui/icons-material/Message';
+import PersonIcon from '@mui/icons-material/Person';
+import PeopleIcon from '@mui/icons-material/People';
 const Home = () => {
   return (
     <div className="container">
@@ -35,13 +40,13 @@ const Home = () => {
         />
         <nav>
           <a href="#" className="active">
-            Home
+           <HomeIcon/> Home
           </a>
-          <a href="#">Explore</a>
-          <a href="#">Notifications</a>
-          <a href="#">Messages</a>
-          <a href="#">Profile</a>
-          <a href="#">Community</a>
+          <a href="#"><ExploreIcon/>Explore</a>
+          <a href="#"><NotificationsIcon/>Notifications</a>
+          <a href="#"><MessageIcon/>Messages</a>
+          <a href="#"><PersonIcon/>Profile</a>
+          <a href="#"><PeopleIcon/>Community</a>
         </nav>
       </aside>
       <main className="main-content">
